@@ -1,0 +1,31 @@
+{
+    "name": "dyhli/bottf-api-php",
+    "description": "PHP library for the Bot.tf API",
+    "homepage": "https://bot.tf",
+    "license": "MIT",
+    "keywords": ["tf2","steam","steambot","bot.tf"],
+    "authors": [
+        {
+            "name": "Yuan Hao 'Danny' Li",
+            "email": "hello@dannyli.nl",
+            "homepage": "https://dannyli.nl",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "help@bot.tf",
+        "issues": "https://github.com/dyhli/bottf-api-php/issues",
+        "wiki": "https://github.com/dyhli/bottf-api-php/wiki",
+        "docs": "https://github.com/dyhli/bottf-api-php/wiki"
+    },
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Dyhli\\BotTF\\": "src"
+        }
+    }
+}
